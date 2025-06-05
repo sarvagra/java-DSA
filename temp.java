@@ -1,12 +1,9 @@
 class temp{
     public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder("Tomorrow is ");
-        String st=sb.substring(0, 5);
-        System.out.println(st);
-        StringBuilder rev = new StringBuilder();
-        rev.append(st);
-        rev.reverse();
-        System.out.println(rev);
+        char[] arr = new char[5];
+        if(arr[0]=='\u0000'){
+            System.out.println("Hi Nigga");
+        }
         
     }
 }

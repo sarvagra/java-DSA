@@ -2,14 +2,14 @@
 
 public class sb_functions {
     public static void main(String[] args) {
-        /* StringBuilder sb=new StringBuilder("Sarvagra"); 
+        StringBuilder sb=new StringBuilder("Sarvagra"); 
         StringBuilder tb=new StringBuilder("Singh"); 
         
         
         System.out.println(sb.compareTo(tb));
 
         // reverse()
-        System.out.println(sb.reverse()); */
+        System.out.println(sb.reverse()); 
 
         StringBuilder sent = new StringBuilder("m'I eht tseb");
         StringBuilder rev = new StringBuilder();
@@ -32,7 +32,7 @@ public class sb_functions {
             rev.reverse();
             System.out.print(rev);
         }
-        /* 
+        
         // important function that makes SB different and special from strings : setCharAt()
         tb.setCharAt(0, 'Q');
         System.out.println(tb);
@@ -56,6 +56,6 @@ public class sb_functions {
         // insert()
         
         System.out.println(a.insert(0,"AB")); //int can also be inserted etc.
-        */
+        
     }
 }
