@@ -1,6 +1,6 @@
 import java.util.PriorityQueue;
 
-class ListNode {
+public class leetcode_23 {
     int val;
     ListNode next;
     ListNode(int val) { this.val = val; }
@@ -32,5 +32,3 @@ public class Solution {
         return dummy.next;
     }
 }
-
-
